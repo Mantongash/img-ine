@@ -1,3 +1,24 @@
-body {
-  background: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav bar styles */
+nav {
+  background: #ffe9e0;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5% 0;
+}
+
+.nav-bar p {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #801700;
 }

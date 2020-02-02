@@ -44,7 +44,21 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 70vh;
   text-align: center;
   color: #801700;
+}
+
+/* Search Form */
+form {
+  width: 60%;
+}
+input[type="text"] {
+  padding: .7rem;
+  border-radius: 4px;
+  border: 1px solid #801700;
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
 }

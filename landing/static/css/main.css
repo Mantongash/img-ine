@@ -34,3 +34,17 @@ nav {
   font-weight: bolder;
   color: #801700;
 }
+
+/* Header text */
+.sub {
+  display: block;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+  color: #801700;
+}

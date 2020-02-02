@@ -10,6 +10,12 @@ body {
   font-family: "Raleway";
 }
 
+/* Header styles */
+header {
+  background: url("../images/hero_img.jpg") no-repeat center center/cover;
+  height: 70vh;
+}
+
 /* Nav bar styles */
 nav {
   background: #ffe9e0;

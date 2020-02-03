@@ -63,3 +63,19 @@ input[type="text"] {
   margin-top: 2rem;
   text-align: center;
 }
+
+input[type="submit"] {
+  padding: .3rem 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  background: transparent;
+  color: #801700;
+  font-weight: bolder;
+  border: 1px solid #801700;
+}
+
+input[type="submit"]:hover {
+  background: #801700;
+  color: #fff;
+  transition: ease-in;
+}
